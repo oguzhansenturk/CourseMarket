@@ -1,3 +1,4 @@
+using CourseMarket.Services.Catalog.Services;
 using CourseMarket.Services.Catalog.Settings;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,8 +28,10 @@ namespace CourseMarket.Services.Catalog
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<ICategoryService, CategoryService>();
             services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
+
             services.Configure<DatabaseSettings>(Configuration.GetSection("DatabaseSettings"));
             services.AddSingleton<IDatabaseSettings>(sp =>
             {

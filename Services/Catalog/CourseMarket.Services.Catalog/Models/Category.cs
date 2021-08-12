@@ -3,7 +3,7 @@ using MongoDB.Bson;
 
 namespace CourseMarket.Services.Catalog.Models
 {
-    public class Category
+    internal class Category
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
