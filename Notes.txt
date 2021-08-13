@@ -1,4 +1,5 @@
 https://github.com/IdentityServer/IdentityServer4.Templates
 	-dotnet new -i identityserver4.templates
 	-dotnet new is4aspid
+	-https://identityserver4.readthedocs.io/en/latest/endpoints/discovery.html
 
