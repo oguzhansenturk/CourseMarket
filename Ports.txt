@@ -1,6 +1,7 @@
 Services
-	-catalogAPI => 5011
-	-photoStock => 5012
-	-basketApi => 5013
-	-discountApi => 5014
-Identityserver => 5001
+	-catalogAPI  => 5011  || MongoDB
+	-photoStock  => 5012  || FileSystem
+	-basketApi   => 5013  || Redis
+	-discountApi => 5014  || PostgreSql - DapperORM
+
+Identityserver   => 5001  || MSSQL - EFCore
