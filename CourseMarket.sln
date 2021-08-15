@@ -25,7 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMarket.IdentityServer
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{2A349312-4E82-4C20-82FE-94747915E5E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMarket.Services.PhotoStock", "Services\PhotoStock\CourseMarket.Services.PhotoStock\CourseMarket.Services.PhotoStock.csproj", "{D14CADD7-B3B4-44FE-8460-AF9909DE2AFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMarket.Services.PhotoStock", "Services\PhotoStock\CourseMarket.Services.PhotoStock\CourseMarket.Services.PhotoStock.csproj", "{D14CADD7-B3B4-44FE-8460-AF9909DE2AFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{2C6238EA-8D47-4980-AAC6-67FBF8746128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMarket.Services.Basket", "Services\Basket\CourseMarket.Services.Basket\CourseMarket.Services.Basket.csproj", "{877E5C65-FB6E-4891-BA23-EFAE3731D7A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{D14CADD7-B3B4-44FE-8460-AF9909DE2AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D14CADD7-B3B4-44FE-8460-AF9909DE2AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D14CADD7-B3B4-44FE-8460-AF9909DE2AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{877E5C65-FB6E-4891-BA23-EFAE3731D7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{877E5C65-FB6E-4891-BA23-EFAE3731D7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{877E5C65-FB6E-4891-BA23-EFAE3731D7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{877E5C65-FB6E-4891-BA23-EFAE3731D7A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,8 @@ Global
 		{28EFCD56-03AA-4A92-A90C-E01EA750E74B} = {89D7B7CF-E534-4DF0-896B-D190DC4B15D8}
 		{2A349312-4E82-4C20-82FE-94747915E5E5} = {78F11335-9723-472E-A5EF-80F73EAD88B5}
 		{D14CADD7-B3B4-44FE-8460-AF9909DE2AFE} = {2A349312-4E82-4C20-82FE-94747915E5E5}
+		{2C6238EA-8D47-4980-AAC6-67FBF8746128} = {78F11335-9723-472E-A5EF-80F73EAD88B5}
+		{877E5C65-FB6E-4891-BA23-EFAE3731D7A3} = {2C6238EA-8D47-4980-AAC6-67FBF8746128}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07CEAAF6-42D2-474C-AB8A-21B67C4FA1B2}
