@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace CourseMarket.Services.Discount.Models
 {
+
     [Dapper.Contrib.Extensions.Table("discount")]
     public class Discount
     {
