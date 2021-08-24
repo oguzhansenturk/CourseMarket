@@ -37,15 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMarket.Services.Disco
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{9FC9AACA-DE34-4EBA-B264-D368B1A32489}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMarket.Services.Order.API", "Services\Order\CourseMarket.Services.Order.API\CourseMarket.Services.Order.API.csproj", "{9E1E1E33-8AB5-4581-9178-B0BAFCBF5A62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMarket.Services.Order.API", "Services\Order\CourseMarket.Services.Order.API\CourseMarket.Services.Order.API.csproj", "{9E1E1E33-8AB5-4581-9178-B0BAFCBF5A62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMarket.Services.Order.Application", "Services\Order\CourseMarket.Services.Order.Application\CourseMarket.Services.Order.Application.csproj", "{9DC2C6A8-362E-47D7-B611-9C6659A0CD24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMarket.Services.Order.Application", "Services\Order\CourseMarket.Services.Order.Application\CourseMarket.Services.Order.Application.csproj", "{9DC2C6A8-362E-47D7-B611-9C6659A0CD24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMarket.Services.Order.Domain", "Services\Order\CourseMarket.Services.Order.Domain\CourseMarket.Services.Order.Domain.csproj", "{69FC42E6-F604-4ABF-BDAB-7556A706B2F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMarket.Services.Order.Domain", "Services\Order\CourseMarket.Services.Order.Domain\CourseMarket.Services.Order.Domain.csproj", "{69FC42E6-F604-4ABF-BDAB-7556A706B2F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMarket.Services.Order.Domain.Core", "Services\Order\CourseMarket.Services.Order.Domain.Core\CourseMarket.Services.Order.Domain.Core.csproj", "{640034B8-4E3F-4607-B27C-09C7ACF603E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMarket.Services.Order.Domain.Core", "Services\Order\CourseMarket.Services.Order.Domain.Core\CourseMarket.Services.Order.Domain.Core.csproj", "{640034B8-4E3F-4607-B27C-09C7ACF603E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMarket.Services.Order.Infrastructure", "Services\Order\CourseMarket.Services.Order.Infrastructure\CourseMarket.Services.Order.Infrastructure.csproj", "{F7385477-4DAD-40CD-8D95-713DE57CE473}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMarket.Services.Order.Infrastructure", "Services\Order\CourseMarket.Services.Order.Infrastructure\CourseMarket.Services.Order.Infrastructure.csproj", "{F7385477-4DAD-40CD-8D95-713DE57CE473}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -23,6 +23,11 @@ namespace CourseMarket.Services.Order.Domain.OrderAggregate
 
         public IReadOnlyCollection<OrderItem> OrderItems => _orderItems;
 
+        public Order()
+        {
+
+        }
+
         public Order(string buyerId, Address address)
         {
             _orderItems = new List<OrderItem>();
