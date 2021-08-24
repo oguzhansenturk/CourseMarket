@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CourseMarket.Services.Order.Infrastructure.Migrations
 {
     [DbContext(typeof(OrderDbContext))]
-    [Migration("20210824104831_initial")]
+    [Migration("20210824134809_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -65,7 +65,7 @@ namespace CourseMarket.Services.Order.Infrastructure.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("Order", "ordering");
+                    b.ToTable("OrderItems", "ordering");
                 });
 
             modelBuilder.Entity("CourseMarket.Services.Order.Domain.OrderAggregate.Order", b =>

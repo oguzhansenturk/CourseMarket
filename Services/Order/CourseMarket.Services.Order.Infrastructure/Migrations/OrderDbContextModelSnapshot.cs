@@ -63,7 +63,7 @@ namespace CourseMarket.Services.Order.Infrastructure.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("Order", "ordering");
+                    b.ToTable("OrderItems", "ordering");
                 });
 
             modelBuilder.Entity("CourseMarket.Services.Order.Domain.OrderAggregate.Order", b =>

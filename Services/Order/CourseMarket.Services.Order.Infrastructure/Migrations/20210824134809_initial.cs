@@ -31,7 +31,7 @@ namespace CourseMarket.Services.Order.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Order",
+                name: "OrderItems",
                 schema: "ordering",
                 columns: table => new
                 {
@@ -45,9 +45,9 @@ namespace CourseMarket.Services.Order.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Order", x => x.Id);
+                    table.PrimaryKey("PK_OrderItems", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Order_Orders_OrderId",
+                        name: "FK_OrderItems_Orders_OrderId",
                         column: x => x.OrderId,
                         principalSchema: "ordering",
                         principalTable: "Orders",
@@ -56,16 +56,16 @@ namespace CourseMarket.Services.Order.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Order_OrderId",
+                name: "IX_OrderItems_OrderId",
                 schema: "ordering",
-                table: "Order",
+                table: "OrderItems",
                 column: "OrderId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Order",
+                name: "OrderItems",
                 schema: "ordering");
 
             migrationBuilder.DropTable(
