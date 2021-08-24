@@ -3,6 +3,7 @@ Services
 	-photoStock  => 5012  || FileSystem
 	-basketApi   => 5013  || Redis
 	-discountApi => 5014  || PostgreSql - DapperORM
-	-OderApi     => 5015  || MSSQL - EFCore
+	-OderApi     => 5015  || MSSQL - EFCore - MediatR
+	-fakePayment => 5016  
 
 Identityserver   => 5001  || MSSQL - EFCore
