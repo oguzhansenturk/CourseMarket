@@ -7,3 +7,4 @@ Services
 	-fakePayment => 5016  
 
 Identityserver   => 5001  || MSSQL - EFCore
+GateWay          => 5000
