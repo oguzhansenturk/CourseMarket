@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Ocelot.DependencyInjection;
@@ -14,8 +15,22 @@ namespace CourseMarket.Gateway
 {
     public class Startup
     {
+        private readonly IConfiguration Configuration;
+
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAuthentication().AddJwtBearer("GatewayAuthenticationSchema",options=>
+            {
+                options.Authority = Configuration["IdentityServerURL"];
+                options.Audience = "resource_gateway";
+                options.RequireHttpsMetadata = false;
+            });
+
             services.AddOcelot();
         }
 

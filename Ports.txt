@@ -4,7 +4,7 @@ Services
 	-basketApi   => 5013  || Redis
 	-discountApi => 5014  || PostgreSql - DapperORM
 	-OderApi     => 5015  || MSSQL - EFCore - MediatR
-	-fakePayment => 5016  
+	-fakePayment => 5016  || Basic response
 
 Identityserver   => 5001  || MSSQL - EFCore
-GateWay          => 5000
+GateWay          => 5000  || Ocelot
