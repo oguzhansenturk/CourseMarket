@@ -8,3 +8,4 @@ Services
 
 Identityserver   => 5001  || MSSQL - EFCore
 GateWay          => 5000  || Ocelot
+Web MVC          => 5010  || MVC
