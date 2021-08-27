@@ -11,8 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMarket.Services.Catal
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{174D4E5A-D9BE-4E42-8A1B-31CEB9674F76}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\GatewayMimari.PNG = ..\..\..\Desktop\GatewayMimari.PNG
+		..\..\..\Desktop\IdentityMimari.PNG = ..\..\..\Desktop\IdentityMimari.PNG
 		Notes.txt = Notes.txt
 		Ports.txt = Ports.txt
+		..\..\..\Desktop\ProjeMamari.PNG = ..\..\..\Desktop\ProjeMamari.PNG
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B5268E67-F95D-45D1-B7A7-AB3E9AC2F217}"
@@ -49,11 +52,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMarket.Services.Order
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FakePayment", "FakePayment", "{1CD2142E-7FED-4F88-8D5A-F0898B374538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMarket.Services.FakePayment", "Services\FakePayment\CourseMarket.Services.FakePayment\CourseMarket.Services.FakePayment.csproj", "{348B9970-B53D-4079-A389-1286F8CBEB93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMarket.Services.FakePayment", "Services\FakePayment\CourseMarket.Services.FakePayment\CourseMarket.Services.FakePayment.csproj", "{348B9970-B53D-4079-A389-1286F8CBEB93}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{71C3D2F7-50A7-4CAC-B746-20EB64786196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMarket.Gateway", "CourseMarket.Gateway\CourseMarket.Gateway.csproj", "{6E6F37D6-88E0-487C-A858-13D6B0B8136A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMarket.Gateway", "CourseMarket.Gateway\CourseMarket.Gateway.csproj", "{6E6F37D6-88E0-487C-A858-13D6B0B8136A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
